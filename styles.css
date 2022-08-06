@@ -1,3 +1,7 @@
+body {
+    font-family: sans-serif;
+}
+
 .header {
     background-color: #1F2937;
     display: flex;
@@ -22,4 +26,54 @@ ul {
 a {
     text-decoration: none;
     color: white;
+}
+
+.hero {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 100px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.hero div {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    max-height: 200px;
+    font-family: sans-serif;
+    gap: 10px;
+    justify-content: center;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero-text {
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6; 
+    padding: 8px;
+    border-radius: 7px;
+    border: #3882F6;
+    color: white;
+    max-width: 100px;
+    font-weight: bold;
+}
+
+img {
+    background-color: gray;
+    width: 450px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
