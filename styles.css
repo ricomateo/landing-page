@@ -119,3 +119,30 @@ img {
     flex-direction: column;
     align-items: center;
 }
+
+.quote-section {
+    background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-style: italic;
+    color: rgb(94, 94, 100);
+}
+
+.pepe {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 900px;
+    gap: 20px;
+}
+
+.signature {
+    align-self: flex-end;
+    font-size: 24px;
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+}
